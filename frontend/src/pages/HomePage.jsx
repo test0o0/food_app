@@ -4,7 +4,7 @@ import './HomePage.css';
 import Category from '../components/category/category';
 import Deals from '../components/Deals/deals';
 import Twocards from '../components/Twocards/twocards';
-import Popular from '../components/Popular/popular';
+import Popular from '../components/popular/popular';
 
 const HomePage = () => {
   return (
