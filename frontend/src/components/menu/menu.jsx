@@ -83,7 +83,7 @@ const Menu = () => {
    {/* Right My Basket Section */}
    <div className="basket-container">
         <div className="share-cart">
-          <button onClick={generateCartLink}>Share this cart with your friends</button>
+          <button onClick={generateCartLink}>Share</button>
           {cartLink && (
             <div>
               <input type="text" value={cartLink} readOnly />
