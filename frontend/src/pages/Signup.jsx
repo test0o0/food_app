@@ -66,9 +66,7 @@ const SignUpPage = () => {
                     </div>
                 </div>
             </div>
-            <footer className="footer">
-                {/* Footer content */}
-            </footer>
+           
         </div>
     );
 };
