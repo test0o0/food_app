@@ -1,0 +1,61 @@
+.info-snippet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    flex: 1;
+    margin: 0 10px;
+    max-width: 300px;
+  }
+  
+  .section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  .section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .delivery {
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .contact {
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .operational {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  .operational p {
+    color: #fff;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,34 @@
+img.banner {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 12px;
+  }
+
+
+  .homepage-container {
+    height: 100vh; 
+    width: 100%;
+    overflow: auto;
+    margin: 10px auto;
+ 
+  
+    
+  }
+  
+  
+  .homepage-container::-webkit-scrollbar {
+    width: 10px; }
+  
+  .homepage-container::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+  }
+  
+  .homepage-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px; 
+  }
+  
+  .homepage-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
