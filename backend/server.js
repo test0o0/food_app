@@ -1,8 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/auth');
-// const taskRoutes = require('./routes/tasks'); 
-// const peopleRoutes = require('./routes/people');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
@@ -24,7 +22,7 @@ const logToFile = (message) => {
   };
 
   const allowedOrigins = [
-    'https://atharv1599-gmail-com-cuvette-final-evaluation-may.vercel.app', // Vercel frontend URL
+    'atharv1599-gmail-com-cuvette-final-evaluation-may-theta.vercel.app',
     // 'http://localhost:5173' // Local development URL (optional)
   ];
   
